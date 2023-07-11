@@ -16,6 +16,7 @@ body {
     display: flex;
     justify-content: space-around;
     background-color: #FCEEF1;
+    width: 100%;
     height: 850px;
 
 }
@@ -78,6 +79,7 @@ body {
 
 
 .featured-section {
+    width: 100%;
     margin-top: 160px;
 }
 
@@ -117,9 +119,11 @@ body {
 }
 
 
-.featured-image-1 {
-    width: 464px;
-    height: 538px;
+.featured-image-1,
+.featured-image-2,
+.featured-image-3 {
+    width: 400px;
+    height: 474px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
 }
@@ -127,32 +131,34 @@ body {
 
 
 .featured-image-1 img {
-    margin: 110px 76px 75px;
+    width: 300px;
+    height: 400px;
+    margin: 74px 62px 0px;
 }
 
 
 .featured-image-2 {
-    width: 464px;
-    height: 538px;
-    border-radius: 300px 300px 0px 0px;
+
     background: rgba(5, 151, 160, 0.15);
 }
 
 
 .featured-image-2 img {
-    margin: 117px 47px 51px;
+    width: 300px;
+    height: 400px;
+    margin: 50px 51px 22px;
 }
 
 
 .featured-image-3 {
-    width: 464px;
-    height: 538px;
-    border-radius: 300px 300px 0px 0px;
+
     background: rgba(71, 125, 17, 0.15);
 }
 
 .featured-image-3 img {
-    margin: 67px 75px 0;
+    width: 300px;
+    height: 400px;
+    margin: 73px 50px 0;
 }
 
 
@@ -173,6 +179,7 @@ body {
 
 
 .history-section {
+    width: 100%;
     margin-top: 150px;
     margin-bottom: 200px;
     display: flex;
@@ -239,6 +246,7 @@ body {
 /* Our History section styles end  */
 
 .hot-deal-section {
+    width: 100%;
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -261,7 +269,8 @@ body {
 
 
 .hot-deal-description {
-    width: 594px;
+    width: 100%;
+    /* width: 594px; */
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -288,10 +297,17 @@ body {
 
 /* social section start  */
 
+.instagram-section-texts {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
 
 .social-title {
     color: #272727;
-    text-align: center;
+    /* text-align: center; */
     font-size: 40px;
     font-weight: 800;
 }
@@ -299,16 +315,15 @@ body {
 .social-image-div {
     display: flex;
     justify-content: center;
-    margin-top: 80px;
-
+    gap: 30px;
+    margin-bottom: 130px;
 }
 
-
-.social-image {
-    width: 342px;
-    height: 396px;
-    margin-left: 20px;
+.social-image-div img {
+    width: 300px;
+    height: 354px;
 }
+
 
 /* social section style end  */
 
@@ -318,18 +333,20 @@ body {
 .latest-deals-section {
 
     background-image: url(images/Rectangle\ 9.png);
-    width: 1440px;
-    height: 449px;
+
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
-    margin: 160px 240px 100px;
     display: flex;
+    justify-content: center;
+    margin: 0px 304px 130px 304px;
+
 
 }
 
 .deals-info {
-    margin-top: 122px;
+    padding: 86px;
+    text-align: center;
 }
 
 
@@ -337,20 +354,25 @@ body {
     color: #272727;
     text-align: center;
     font-size: 40px;
-    font-style: normal;
     font-weight: 800;
-    margin-bottom: 24px;
-    margin-left: 235px;
+    margin-bottom: 0px;
+    /* margin-left: 235px; */
 }
 
 
 .deals-description {
     color: rgba(39, 39, 39, 0.60);
-    text-align: center;
     font-size: 18px;
     font-weight: 400;
-    margin-bottom: 28px;
-    margin-left: 237px;
+    /* margin-bottom: 28px;
+    margin-left: 237px; */
+    margin: 20px 0px;
+}
+
+.subscribe {
+    display: flex;
+    justify-items: center;
+    gap: 10px;
 }
 
 
@@ -360,13 +382,11 @@ body {
     border: none;
     border-radius: 8px;
     background: #FFF;
-    text-align: center;
-    margin-left: 287px;
 }
 
 
 .btn-subscribe {
-    width: 150px;
+    width: 180px;
     height: 64px;
     border: none;
     border-radius: 8px;
@@ -374,7 +394,6 @@ body {
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
-    margin-left: 10px;
 }
 
 
@@ -386,13 +405,14 @@ body {
 
 .footer-section {
     display: flex;
-    width: 1922px;
-    height: 449px;
+    align-items: center;
+    height: 400px;
     background: #111010;
 }
 
 .footer-info {
-    margin-top: 128px;
+    /* display: flex; */
+    justify-content: center;
 }
 
 .footer-title {
@@ -408,18 +428,18 @@ body {
 
 }
 
+
 .footer-description {
+
+    text-align: center;
     width: 675px;
     color: rgba(255, 255, 255, 0.90);
     font-size: 18px;
     font-weight: 400;
-    margin-left: 640px;
-    margin-top: 30px;
+    /* margin-left: 640px; */
+    margin: 30px;
 }
 
-.footer-description-style {
-    margin-left: 135px;
-}
 
 
 .footer-bottom {
@@ -427,8 +447,8 @@ body {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-    margin-top: 20px;
-    margin-left: 635px;
+    justify-content: center;
+
 }
 
 /* footer style end  */
