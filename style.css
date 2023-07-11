@@ -327,13 +327,13 @@ body {
 .latest-deals-section {
 
     background-image: url(images/Rectangle\ 9.png);
-
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
     display: flex;
     justify-content: center;
-    margin: 0px 304px 130px 304px;
+    margin: 0px 145px 130px 145px;
+    /* margin: auto; */
 
 
 }
