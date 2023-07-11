@@ -311,3 +311,68 @@ body {
 }
 
 /* social section style end  */
+
+/* Latest Deals section style start  */
+
+
+.latest-deals-section {
+
+    background-image: url(images/Rectangle\ 9.png);
+    width: 1440px;
+    height: 449px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    margin: 160px 240px 100px;
+    display: flex;
+
+}
+
+.deals-info {
+    margin-top: 122px;
+}
+
+
+.deals-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 24px;
+    margin-left: 235px;
+}
+
+
+.deals-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 28px;
+    margin-left: 237px;
+}
+
+
+.input-box {
+    width: 700px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    text-align: center;
+    margin-left: 287px;
+}
+
+
+.btn-subscribe {
+    width: 150px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+}
