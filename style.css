@@ -123,8 +123,8 @@ body {
 .featured-image-1,
 .featured-image-2,
 .featured-image-3 {
-    width: 400px;
-    height: 474px;
+    width: 464px;
+    height: 538px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
 }
@@ -132,9 +132,9 @@ body {
 
 
 .featured-image-1 img {
-    width: 300px;
-    height: 400px;
-    margin: 74px 62px 0px;
+    width: 310px;
+    height: 428px;
+    margin: 109px 62px 0px;
 }
 
 
@@ -145,9 +145,9 @@ body {
 
 
 .featured-image-2 img {
-    width: 300px;
-    height: 400px;
-    margin: 50px 51px 22px;
+    width: 370px;
+    height: 370px;
+    margin: 110px 51px 22px;
 }
 
 
@@ -157,9 +157,9 @@ body {
 }
 
 .featured-image-3 img {
-    width: 300px;
-    height: 400px;
-    margin: 73px 50px 0;
+    width: 314px;
+    height: 471px;
+    margin: 66px 50px 0;
 }
 
 
@@ -292,6 +292,8 @@ body {
 
 /* social section start  */
 
+.instagram-section {}
+
 .instagram-section-texts {
     text-align: center;
     width: 500px;
@@ -300,23 +302,23 @@ body {
 
 }
 
-.social-title {
+.instagram-section-title {
     color: #272727;
 
     font-size: 40px;
     font-weight: 800;
 }
 
-.social-image-div {
+.instagram-section-images {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-bottom: 130px;
 }
 
-.social-image-div img {
-    width: 300px;
-    height: 354px;
+.instagram-section-images img {
+    width: 385px;
+
 }
 
 
@@ -333,7 +335,7 @@ body {
     border-radius: 8px;
     display: flex;
     justify-content: center;
-    margin: 0px 305px 130px 305px;
+    margin: 0px 135px 130px 135px;
 
 
 
