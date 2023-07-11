@@ -5,6 +5,7 @@
 }
 
 body {
+    overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -310,9 +311,10 @@ body {
 
 .instagram-section-images {
     display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-bottom: 130px;
+    justify-content: space-around;
+    /* gap: 30px; */
+    margin: 130px 110px;
+
 }
 
 .instagram-section-images img {
