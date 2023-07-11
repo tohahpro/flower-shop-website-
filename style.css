@@ -258,6 +258,7 @@ body {
 }
 
 .hot-deal-section-text {
+    justify-content: center;
     text-align: center;
     margin: auto;
 }
