@@ -376,3 +376,40 @@ body {
     font-weight: 700;
     margin-left: 10px;
 }
+
+
+/* Get The Latest Deals section styles end  */
+
+/* footer section style start  */
+
+
+
+.footer-section {
+    width: 1922px;
+    height: 449px;
+    background: #111010;
+}
+
+.footer-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.footer-title-color {
+    color: #E55473;
+
+}
+
+.footer-description {
+    width: 675px;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 640px;
+}
+
+.footer-description-style {
+    margin-left: 135px;
+}
