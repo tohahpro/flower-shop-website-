@@ -167,3 +167,73 @@ body {
 
 
 /* Our Featured Flowers styles end  */
+
+
+/* Our History section style start  */
+
+
+.history-section {
+    margin-top: 150px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.history-image img {
+    width: 590px;
+    height: 690px;
+}
+
+.history-info {
+    width: 600px;
+    height: 640px;
+    margin-top: 50px;
+    background-color: #F9F9F9;
+}
+
+.history-sub-info {
+    margin-top: 20px;
+
+}
+
+.history-label {
+    margin-left: 70px;
+
+}
+
+.history-title {
+    margin-left: 70px;
+    margin-top: 30px;
+    color: #272727;
+    line-height: 70px;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+
+.history-description {
+    width: 400px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 70px;
+}
+
+.description-spacing {
+    margin-top: 30px;
+    display: block;
+}
+
+
+.btn-history {
+    font-size: 18px;
+    padding: 20px 43px;
+    color: #FFF;
+    border: none;
+    border-radius: 8px;
+    background: #E55473;
+    margin: 10px 70px;
+}
+
+
+/* Our History section styles end  */
