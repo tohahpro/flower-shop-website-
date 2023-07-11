@@ -17,7 +17,7 @@ body {
     justify-content: space-around;
     background-color: #FCEEF1;
     width: 100%;
-    height: 850px;
+    margin-bottom: 140px;
 
 }
 
@@ -66,8 +66,8 @@ body {
 }
 
 .header-image img {
-    width: 635px;
-    height: 800px;
+    width: 600px;
+    height: 765px;
 
 }
 
@@ -78,16 +78,17 @@ body {
 
 
 
-/* .featured-section {
-    width: 100%;
-    margin-top: 160px;
-} */
+.featured-section {
+
+    margin-bottom: 140px;
+}
 
 .featured-flowers-text {
     text-align: center;
     width: 600px;
     margin: auto;
     align-items: center;
+    margin-bottom: 20px;
 
 
 
@@ -332,7 +333,7 @@ body {
     border-radius: 8px;
     display: flex;
     justify-content: center;
-    margin: 0px 145px 130px 145px;
+    margin: 0px 305px 130px 305px;
 
 
 
