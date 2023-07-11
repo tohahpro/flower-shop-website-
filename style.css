@@ -385,16 +385,22 @@ body {
 
 
 .footer-section {
+    display: flex;
     width: 1922px;
     height: 449px;
     background: #111010;
+}
+
+.footer-info {
+    margin-top: 128px;
 }
 
 .footer-title {
     font-size: 48px;
     font-weight: 800;
     color: #FFFFFF;
-    text-align: center;
+    margin-left: 831px;
+    /* text-align: center; */
 }
 
 .footer-title-color {
@@ -408,8 +414,21 @@ body {
     font-size: 18px;
     font-weight: 400;
     margin-left: 640px;
+    margin-top: 30px;
 }
 
 .footer-description-style {
     margin-left: 135px;
 }
+
+
+.footer-bottom {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 635px;
+}
+
+/* footer style end  */
