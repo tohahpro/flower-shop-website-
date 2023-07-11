@@ -245,49 +245,42 @@ body {
 
 /* Our History section styles end  */
 
+/* Hot Deal Section Styles */
+
 .hot-deal-section {
-    width: 100%;
     display: flex;
     justify-content: space-around;
-    width: 100%;
-    height: 620px;
+    gap: 50px;
+    align-items: center;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    margin-bottom: 200px;
+    margin-bottom: 130px;
 }
 
-
-.hot-deal-info {
-    margin-top: 230px;
-}
-
-.hot-deal-title {
-    color: #272727;
-    font-size: 40px;
-    font-weight: 800;
-}
-
-
-.hot-deal-description {
-    width: 100%;
-    /* width: 594px; */
-    color: rgba(39, 39, 39, 0.60);
+.hot-deal-section-text {
     text-align: center;
+    margin: auto;
+}
+
+.hot-deal-section-title {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0px 0px 30px 0px;
+}
+
+.hot-deal-section-description {
+    width: 674px;
+    color: rgba(39, 39, 39, 0.60);
+    /* text-align: center; */
     font-size: 18px;
+    font-style: normal;
     font-weight: 400;
-    margin-top: 15px;
 }
 
-
-.hot-deal-image {
+.hot-deal-image img {
     width: 318px;
-    height: 420px;
-    margin-top: 100px;
-}
-
-.btn-deal {
-    margin: 32px 200px;
-
+    margin: 70px 330px 70px 0px;
 }
 
 
@@ -307,7 +300,7 @@ body {
 
 .social-title {
     color: #272727;
-    /* text-align: center; */
+
     font-size: 40px;
     font-weight: 800;
 }
@@ -356,7 +349,7 @@ body {
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 0px;
-    /* margin-left: 235px; */
+
 }
 
 
@@ -364,8 +357,6 @@ body {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
-    /* margin-bottom: 28px;
-    margin-left: 237px; */
     margin: 20px 0px;
 }
 
@@ -399,56 +390,42 @@ body {
 
 /* Get The Latest Deals section styles end  */
 
-/* footer section style start  */
-
-
+/* Footer Section Styles */
 
 .footer-section {
-    display: flex;
-    align-items: center;
-    height: 400px;
     background: #111010;
+    padding: 200px 0px 128px 0px;
 }
 
-.footer-info {
-    /* display: flex; */
-    justify-content: center;
+.footer-text {
+    margin: auto;
+    width: 650px;
+    text-align: center;
+    color: white;
 }
 
 .footer-title {
     font-size: 48px;
     font-weight: 800;
-    color: #FFFFFF;
-    margin-left: 831px;
-    /* text-align: center; */
+    margin-bottom: 30px;
+
 }
 
-.footer-title-color {
+.highlight-text {
     color: #E55473;
-
 }
-
 
 .footer-description {
-
-    text-align: center;
-    width: 675px;
-    color: rgba(255, 255, 255, 0.90);
     font-size: 18px;
     font-weight: 400;
-    /* margin-left: 640px; */
-    margin: 30px;
+    color: rgba(255, 255, 255, 0.90);
 }
 
-
-
-.footer-bottom {
+small {
     color: rgba(255, 255, 255, 0.40);
-    text-align: center;
     font-size: 16px;
     font-weight: 400;
+    display: flex;
     justify-content: center;
-
+    margin-top: 30px;
 }
-
-/* footer style end  */
