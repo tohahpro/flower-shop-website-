@@ -378,6 +378,14 @@ body {
     background: #FFF;
 }
 
+input[placeholder] {
+    padding-left: 20px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
 
 .btn-subscribe {
     width: 180px;
