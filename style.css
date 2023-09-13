@@ -246,6 +246,27 @@ body {
 
 /* Our History section styles end  */
 
+/* support section styles start  */
+
+.info-section {
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 4rem 12rem;
+    padding: 5rem;
+}
+
+.info {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* support section styles end  */
+
 /* Hot Deal Section Styles */
 
 .hot-deal-section {
