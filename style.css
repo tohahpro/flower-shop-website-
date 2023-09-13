@@ -248,21 +248,21 @@ body {
 
 /* support section styles start  */
 
-.info-section {
+.support-section {
 
     display: flex;
     justify-content: space-around;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 15px;
     background: rgba(39, 39, 39, 0.05);
     margin: 4rem 12rem;
     padding: 5rem;
 }
 
-.info {
+.support {
     color: rgba(39, 39, 39, 0.80);
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 /* support section styles end  */
